@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using DataAccessLayer.BooksService;
 using DataAccessLayer.Repository.Entities;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Books.Controllers
 {
@@ -16,6 +17,7 @@ namespace Books.Controllers
         }
 
         [HttpGet("GetBooks")]
+        [Authorize(Roles = "User")]
         public ActionResult<List<Book>> Get() => _booksService.GetAll();
 
         [HttpGet("{id}")]

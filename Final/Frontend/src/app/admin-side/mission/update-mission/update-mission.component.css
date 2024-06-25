@@ -1,0 +1,117 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Container */
+.container-fluid {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Sidebar */
+
+
+/* Content section */
+.container-fluid .content {
+  width: 50vw; /* Adjust width as needed */
+  margin-left: 500px; /* Adjust margin for layout */
+  padding: 20px;
+}
+
+.container-fluid .content .info {
+  margin-bottom: 20px;
+  color: #717171;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.container-fluid .content .info div {
+  margin-bottom: 15px;
+}
+
+/* Card */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-header {
+  font-size: 22px;
+  font-weight: 400;
+  padding: 10px 20px;
+  background-color: #6f42c1; /* Violet background */
+  color: #fff; /* White text */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+/* Form elements */
+.col-form-label {
+  font-family: 'NotoSans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  color: #414141;
+}
+
+.form-control,
+.form-select {
+  height: 38px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-select {
+  width: 100%;
+}
+
+/* Buttons */
+.btnCancel,
+.btnSave {
+  width: 120px;
+  height: 48px;
+  border-radius: 24px;
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btnCancel {
+  border: 2px solid #757575;
+  background-color: #fff;
+  color: #757575;
+}
+
+.btnSave {
+  border: 2px solid #f88634;
+  background-color: #fff;
+  color: #f88634;
+}
+
+.btnCancel:hover,
+.btnSave:hover {
+  background-color: #f0f0f0;
+}
+
+/* Error message */
+.text-danger {
+  color: red;
+}
+
+.error {
+  border: 1px solid red !important;
+  color: red;
+}

@@ -1,0 +1,38 @@
+<body>
+  <div class="container-fluid">
+    <div class="row vh-100">
+      <div class="col-md-6 image-section">
+        <img src="https://i.ibb.co/f905mjb/7c7ac6c2-474d-4f0c-bd73-528451dcc380.jpg" alt="Login Image" class="img-fluid">
+      </div>
+      <div class="col-md-6 form-section d-flex justify-content-center align-items-center">
+        <div class="login-container">
+          <div class="avatar-container">
+            <img src="https://i.ibb.co/Fqx0kYy/7309681.jpg" alt="Avatar" class="avatar">
+          </div>
+          <form [formGroup]="loginForm" (ngSubmit)="OnSubmit()">
+            <h1>Login Form</h1>
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="text" class="form-control" formControlName="emailAddress" placeholder="even.donohue@gmail.com" autofocus>
+              <span class="text-danger" *ngIf="emailAddress.invalid && (emailAddress.touched || formValid)">
+                <span *ngIf="emailAddress.hasError('required')">Please Enter Email Address</span>
+                <span *ngIf="emailAddress.hasError('email')">Please Enter Valid Email Address</span>
+              </span>
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input type="password" onpaste="return false" class="form-control" formControlName="password" placeholder="**********">
+              <span class="text-danger" *ngIf="password.invalid && (password.touched || formValid)">Please Enter Password</span>
+            </div>
+            <div class="d-grid mt-5">
+              <button class="btn-login" type="submit"><span class="Login">Login</span></button>
+            </div>
+          </form>
+          <div class="text-center mt-3">
+            <p>Privacy Policy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

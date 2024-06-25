@@ -1,0 +1,253 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.text-orange {
+  color: #5a3d9a;
+}
+
+.bg-orange {
+  background-color: #5a3d9a;
+}
+
+/* Header Styles */
+
+.app-navbar {
+  background-color: #5a3d9a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Form Styles */
+
+.form-control {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus {
+  border-color: #5a3d9a;
+  box-shadow: 0 0 10px rgba(135, 7, 255, 0.5);
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Button Styles */
+
+.btn {
+  background-color: #5a3d9a;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* User Image Styles */
+
+.userImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #5a3d9a;
+  padding: 2px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.userImage:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Additional Styles */
+
+.detail {
+  padding: 20px;
+  border: 1px solid #5a3d9a;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.basicInfo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.userName {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5a3d9a;
+}
+
+.changepassword {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+.changepassword:hover {
+  color: #5a3d9a;
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #5a3d9a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-footer {
+  background-color: #5a3d9a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0 0 10px 10px;
+}
+/* Modal Footer Buttons */
+
+.modal-footer {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background-color: #f7f7f7;
+}
+
+.btn-Close {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-Close:hover {
+  background-color: #f2f2f2;
+  border-color: #aaa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Close {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.btn-save {
+  background-color: #5a3d9a;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-save:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Save {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+/* Modal Footer Buttons */
+
+.modal-footer {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btnCancel {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btnCancel:hover {
+  background-color: #f2f2f2;
+  border-color: #aaa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Cancel {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.btnSkillSave {
+  background-color: #8707ff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btnSkillSave:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.SkillSave {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
